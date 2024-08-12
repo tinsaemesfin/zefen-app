@@ -41,6 +41,7 @@ export function* fetchStatisticsSaga() {
   }
 }
 
+
 export function* fetchArtistStatisticsSaga(
   action: ReturnType<typeof fetchStatisticsArtist>
 ): Generator {
